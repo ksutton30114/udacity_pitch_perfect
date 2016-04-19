@@ -16,16 +16,6 @@ class RecordSoundsViewController: UIViewController , AVAudioRecorderDelegate {
     @IBOutlet weak var stopRecordingButton: UIButton!
     
     var audioRecorder:AVAudioRecorder!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
     @IBAction func recordAudio(sender: AnyObject) {
         print("record button pressed")
